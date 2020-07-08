@@ -31,4 +31,13 @@ module.exports.routes = {
     skipAssets: true,
   },
 
+  'GET /api/v1/auth/google': {
+    controller: 'PassportController', 
+    action: 'googleAuth'
+  },
+  
+  'GET /api/v1/auth/google/callback': {
+    controller: 'PassportController', 
+    action: 'googleCallback'
+  },
 };
