@@ -1,6 +1,7 @@
 module.exports = {
+  tableName: "Event",
   attributes: {
-    // id: { type: 'number', autoIncrement: true },
+    id: { type: 'number', autoIncrement: true },
     topic: { type: 'string', required: true },
     date: { type: 'string', required: true },
     time: { type: 'string', required: true },

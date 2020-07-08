@@ -1,6 +1,7 @@
 module.exports = {
+  tableName: "User",
   attributes: {
-    // id: { type: 'number', autoIncrement: true },
+    id: { type: 'number', autoIncrement: true },
     username: { type: 'string', required: true },
     firstname: { type: 'string', required: true },
     lastname: { type: 'string', required: true },
