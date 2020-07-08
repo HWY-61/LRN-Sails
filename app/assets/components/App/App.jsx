@@ -16,6 +16,7 @@ export default class App extends Component {
         <Header />
         <div class="container">
           <h3>Backend Features</h3>
+          <div>HELLO</div>
 
           <ul>
             <li><a href="https://sailsjs.org">Sails v1.0.2</a></li>
